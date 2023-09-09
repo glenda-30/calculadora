@@ -131,6 +131,10 @@ public class calculadora_IU extends javax.swing.JFrame {
 
     private void btnsumar1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnsumar1ActionPerformed
         // TODO add your handling code here:
+         double nro1 = Double.parseDouble(txtnor1.getText());
+        double nro2 = Double.parseDouble(txtnor2.getText());
+        double restar=nro1-nro2;
+        JOptionPane.showMessageDialog(this,"la resta es :"+restar);
     }//GEN-LAST:event_btnsumar1ActionPerformed
 
     private void btnsumar2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnsumar2ActionPerformed
